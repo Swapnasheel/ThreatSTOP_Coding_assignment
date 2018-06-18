@@ -7,10 +7,10 @@ Script to query dig command, parse IP addresses, and block/ update IPTABLES rule
 File List
 -----
 .:
-README.md
-src/
-src/assignment.py
-src/test.py
+README.md  
+src/  
+src/assignment.py  
+src/test.py  
 
 How to run file
 ----
