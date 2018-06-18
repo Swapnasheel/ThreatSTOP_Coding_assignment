@@ -1,0 +1,35 @@
+
+; <<>> DiG 9.9.5-3ubuntu0.16-Ubuntu <<>> @54.175.23.149 acls.threatstop.local
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4611
+;; flags: qr aa rd; QUERY: 1, ANSWER: 11, AUTHORITY: 1, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;acls.threatstop.local.		IN	A
+
+;; ANSWER SECTION:
+acls.threatstop.local.	604800	IN	A	10.1.201.151
+acls.threatstop.local.	604800	IN	A	10.1.218.105
+acls.threatstop.local.	604800	IN	A	10.1.104.64
+acls.threatstop.local.	604800	IN	A	10.1.145.69
+acls.threatstop.local.	604800	IN	A	10.1.249.215
+acls.threatstop.local.	604800	IN	A	10.1.210.50
+acls.threatstop.local.	604800	IN	A	10.1.118.78
+acls.threatstop.local.	604800	IN	A	10.1.227.35
+acls.threatstop.local.	604800	IN	A	10.1.11.38
+acls.threatstop.local.	604800	IN	A	10.1.71.84
+acls.threatstop.local.	604800	IN	A	10.1.218.82
+
+;; AUTHORITY SECTION:
+acls.threatstop.local.	604800	IN	NS	localhost.
+
+;; Query time: 204 msec
+;; SERVER: 54.175.23.149#53(54.175.23.149)
+;; WHEN: Sun Jun 17 20:45:53 UTC 2018
+;; MSG SIZE  rcvd: 249
+
